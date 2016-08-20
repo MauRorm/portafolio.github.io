@@ -1,0 +1,43 @@
+body {
+	background-image: url(.././images/backgroundpicture.png);
+	background-repeat: no-repeat;
+}
+
+.headerIndex {
+	background-color: #6098F9;
+	font-style: italic;
+  	border-width:1px;
+  	border-style:solid;
+  	border-color:#000000;
+  	text-align: center;
+  	opacity: 0.5;
+}
+
+.ImImageContainer {
+	margin-top: 5%;
+}
+
+.ImImageContainer img{
+	margin:0 auto;
+	display: block;	
+	width:15%;
+	z-index: 1;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 0px;
+}
+
+.descriptionText {
+	margin-top: 2%;
+}
+
+.descriptionText p{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	width:40%;
+	z-index: 1;
+	color: white;
+	font-style: oblique;
+}
