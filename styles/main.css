@@ -1,4 +1,7 @@
+<<<<<<< df7c5579c291da28de740570f47918d628bf244a
 /*Begin index*/
+=======
+>>>>>>> add files
 body {
 	background-image: url(.././images/backgroundpicture.png);
 	background-repeat: no-repeat;
@@ -29,6 +32,7 @@ body {
 	border: 0px;
 }
 
+<<<<<<< df7c5579c291da28de740570f47918d628bf244a
 .descriptionContainer {
 	margin-top: 2%;
 }
@@ -93,3 +97,18 @@ li a:hover {
 	font-style: oblique;
 }
 /*end experience*/
+=======
+.descriptionText {
+	margin-top: 2%;
+}
+
+.descriptionText p{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	width:40%;
+	z-index: 1;
+	color: white;
+	font-style: oblique;
+}
+>>>>>>> add files
