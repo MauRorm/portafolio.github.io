@@ -28,16 +28,41 @@ body {
 	border: 0px;
 }
 
-.descriptionText {
+.descriptionContainer {
 	margin-top: 2%;
 }
 
-.descriptionText p{
-	margin:0 auto;
+.descriptionContainer p{
+	margin:0 auto;			/*0 auto generara margin*/
 	text-align: center;
-	display: block;
 	width:40%;
 	z-index: 1;
 	color: white;
 	font-style: oblique;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	margin-left: 17.5%;
+	display: inline-block;
+}
+
+li a {
+    display: block;			/*block respeta margin o paddings, heigth o width, inline no*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #000000;
 }
