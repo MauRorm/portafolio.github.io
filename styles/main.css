@@ -5,6 +5,7 @@ body {
 }
 
 .headerIndex {
+	margin-top: 5%;
 	background-color: #6098F9;
 	font-style: italic;
   	border-width:1px;
@@ -49,6 +50,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	top: 0px;
 }
 ul {
     list-style-type: none;
