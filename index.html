@@ -7,13 +7,25 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
 		<script>
 			$(document).ready(function(){
-	    		$('#aboutMe').click(function(){
+	    		$('#aboutMe').click(function() {
 	       			$("#descriptionContainer").load("about.html");
 	    		});
-	    		$('#experience').click(function(){
+	    		$('#experience').click(function() {
 	       			$("#descriptionContainer").load("experience.html");
 	    		});
+	    		$('#experience').click(function() {
+	       			$("#descriptionContainer").load("skills.html");
+	    		});
 	    	});
+
+		    window.onload = function() {
+		        document.getElementById("divgraph").style.width = '35%';
+		        document.getElementById("divgraphTwo").style.width = '35%';
+		        document.getElementById("divgraphThree").style.width = '60%';
+		        document.getElementById("divgraphFour").style.width = '45%';
+		        document.getElementById("divgraphFive").style.width = '15%';
+		        document.getElementById("divgraphSix").style.width = '25%';
+	        }
 		</script>
 	</head>
 	<body>
@@ -24,7 +36,7 @@
             <ul>
                <li><a href="#" id="aboutMe">Sobre mí</a></li>
                <li><a href="#" id="experience">Experiencia</a></li>
-               <li><a href="skills.html">Perfil</a></li>
+               <li><a href="#" id="Perfil">Perfil</a></li>
             </ul>
         </nav>
 		<main id="descriptionContainer">
