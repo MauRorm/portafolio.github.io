@@ -96,7 +96,7 @@ li a:hover {
 	text-align: center;
 	width:40%;
 	z-index: 1;
-	color: #000000;
+	color: #00BDFF;
 	font-style: oblique;
 }
 /*end experience*/
@@ -236,7 +236,7 @@ li a:hover {
 	}
 
 	.headerIndex {
-		margin-top: 35%;
+		margin-top: 45%;
 		background-color: #00BDFF;
 		font-style: italic;
 	  	border-width:1px;
@@ -266,10 +266,10 @@ li a:hover {
 	}
 
 	.descriptionContainer p{
-		font-size: 45px;
+		font-size: 17px;
 		margin:0 auto;			/*0 auto generara margin*/
 		text-align: center;
-		width:70%;
+		width:80%;
 		z-index: 1;
 		color: white;
 		font-style: oblique;
@@ -298,17 +298,17 @@ li a:hover {
 	}
 
 	li a {
-		font-size: 60px;
+		font-size: 30px;
 		font-style: italic;
 	    color: white;
 	    text-align: center;
-	    padding: 14px 16px;
+	    padding: 5px 0px;
 	    text-decoration: none;
 	}
 
 	li a:hover {
 	    background-color: white;
-	    color: #000000;
+	    color: #00BDFF;
 	}
 	/*end fixed menu responsive*/
 }
