@@ -4,6 +4,14 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="./styles/main.css" type="text/css">
 		<title>Mauricio Romero CV</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+	    		$('#aboutMe').click(function(){
+	       			$("#descriptionContainer").load("about.html");
+	    		});
+	    	});
+		</script>
 	</head>
 	<body>
 		<header class="headerIndex">
@@ -11,26 +19,12 @@
 		</header>
 		<nav>
             <ul>
-               <li><a href="index.html">Sobre mí</a></li>
+               <li><a href="#" id="aboutMe">Sobre mí</a></li>
                <li><a href="experience.html">Experiencia</a></li>
                <li><a href="skills.html">Perfil</a></li>
             </ul>
         </nav>
-		<main>
-			<article>
-				<section>
-					<div class="ImImageContainer">
-						<img src="./images/mauricio.jpg">
-					</div>
-					<hr>
-					<div class="descriptionContainer">
-						<p>"Mi nombre es Mauricio, estudié ingeniería en computación y soy desarrollador web.</p>
-						<p>Gustoso por el desarrollo y la tecnología, así como por aprender nuevas cosas y mejorar las que ya existen.</p>
-						<p>En mis tiempos libres me gusta programar, investigar, leer, salir y jugar videojuegos.</p>
-						<p>Mi sueño es tener mi propia empresa y conocer el mundo."</p>
-					</div>
-				</section>
-			</article>
+		<main id="descriptionContainer">
 		</main>
 	</body>
 </html>
