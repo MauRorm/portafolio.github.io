@@ -45,6 +45,9 @@ body {
 /*end index*/
 
 /*begin fixed menu*/
+nav {
+	position: fixed;
+}
 ul {
     list-style-type: none;
     margin: 0;
