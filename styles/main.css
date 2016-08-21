@@ -235,19 +235,9 @@ li a:hover {
 		background-repeat: no-repeat;
 	}
 
-	.headerIndex {
-		margin-top: 45%;
-		background-color: #00BDFF;
-		font-style: italic;
-	  	border-width:1px;
-	  	border-style:solid;
-	  	border-color:#000000;
-	  	text-align: center;
-	  	opacity: 0.5;
-	}
 
 	.ImImageContainer {
-		margin-top: 5%;
+		margin-top: 20%;
 	}
 
 	.ImImageContainer img{
