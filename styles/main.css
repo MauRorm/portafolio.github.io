@@ -39,7 +39,7 @@ body {
 	text-align: center;
 	width:40%;
 	z-index: 1;
-	color: #000000;
+	color: #FFFFFF;
 	font-style: oblique;
 }
 
@@ -96,7 +96,7 @@ li a:hover {
 	text-align: center;
 	width:40%;
 	z-index: 1;
-	color: #FFFFFF;
+	color: #000000;
 	font-style: oblique;
 }
 /*end experience*/
@@ -271,7 +271,7 @@ li a:hover {
 		text-align: center;
 		width:80%;
 		z-index: 1;
-		color: white;
+		color: #FFFFFF;
 		font-style: oblique;
 	}
 
