@@ -39,7 +39,7 @@ body {
 	text-align: center;
 	width:40%;
 	z-index: 1;
-	color: white;
+	color: #FFFFFF;
 	font-style: oblique;
 }
 
@@ -75,7 +75,7 @@ li a {
 
 li a:hover {
     background-color: white;
-    color: #000000;
+    color: #00BDFF;
 }
 /*end fixed menu*/
 
@@ -96,7 +96,7 @@ li a:hover {
 	text-align: center;
 	width:40%;
 	z-index: 1;
-	color: #00BDFF;
+	color: #FFFFFF;
 	font-style: oblique;
 }
 /*end experience*/
@@ -307,8 +307,8 @@ li a:hover {
 	}
 
 	li a:hover {
-	    background-color: white;
-	    color: #00BDFF;
+	    background-color: #00BDFF;
+	    color: white;
 	}
 	/*end fixed menu responsive*/
 }
