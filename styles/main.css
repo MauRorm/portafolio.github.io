@@ -6,7 +6,7 @@ body {
 
 .headerIndex {
 	margin-top: 5%;
-	background-color: #6098F9;
+	background-color: #00BDFF;
 	font-style: italic;
   	border-width:1px;
   	border-style:solid;
@@ -57,7 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #00bcd4;
 }
 
 li {
@@ -87,7 +87,7 @@ li a:hover {
 	margin-top: 5%;
 	height: 50%;
 	width: 100%;
-	background-color: #8EA8EB;
+	background-color: #00BDFF;
 	opacity: 0.5;
 }
 
