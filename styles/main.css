@@ -227,7 +227,7 @@ li a:hover {
 
 /*begin responsive styles*/
 
-@media screen and (min-width: 376px) {
+@media screen and (max-width: 376px) {
 
 	/*begin index responsive*/
 	body {
