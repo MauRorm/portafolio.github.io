@@ -47,6 +47,8 @@ body {
 /*begin fixed menu*/
 nav {
 	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 ul {
     list-style-type: none;
