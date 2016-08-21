@@ -2,6 +2,8 @@
 body {
 	background-image: url(.././images/backgroundpicture.png);
 	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .headerIndex {
@@ -48,7 +50,7 @@ body {
 /*begin fixed menu*/
 nav {
 	position: fixed;
-	width: 100%;
+	width: 98%;
 	z-index: 1;
 	top: 0px;
 }
@@ -233,11 +235,25 @@ li a:hover {
 	body {
 		background-image: url(.././images/backgroundpicture.png);
 		background-repeat: no-repeat;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.headerIndex {
+		margin-top: 40%;
+		width: 97%;
+		background-color: #00BDFF;
+		font-style: italic;
+	  	border-width:1px;
+	  	border-style:solid;
+	  	border-color:#000000;
+	  	text-align: center;
+	  	opacity: 0.5;
 	}
 
 
 	.ImImageContainer {
-		margin-top: 20%;
+		margin-top: 4%;
 	}
 
 	.ImImageContainer img{
@@ -270,7 +286,7 @@ li a:hover {
 	/*begin fixed menu responsive*/
 	nav {
 		position: fixed;
-		width: 100%;
+		width: 92%;
 		z-index: 1;
 		top: 0px;
 	}
