@@ -1,3 +1,4 @@
+/*Begin index*/
 body {
 	background-image: url(.././images/backgroundpicture.png);
 	background-repeat: no-repeat;
@@ -41,6 +42,9 @@ body {
 	font-style: oblique;
 }
 
+/*end index*/
+
+/*begin fixed menu*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,3 +70,26 @@ li a:hover {
     background-color: white;
     color: #000000;
 }
+/*end fixed menu*/
+
+/*begin experience*/
+.jobDesc {
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 5%;
+	height: 50%;
+	width: 100%;
+	background-color: #8EA8EB;
+	opacity: 0.5;
+}
+
+.jobDesc h2, p {
+	margin:0 auto;			/*0 auto generara margin*/
+	text-align: center;
+	width:40%;
+	z-index: 1;
+	color: #000000;
+	font-style: oblique;
+}
+/*end experience*/
