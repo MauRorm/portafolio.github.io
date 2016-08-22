@@ -98,3 +98,127 @@ li a:hover {
 	font-style: oblique;
 }
 /*end experience*/
+
+/*begin skills*/
+#divContainer {
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 80%;
+	height: 80%;
+	background-color: #3f51b3;
+	border-width: 2px;
+	border: solid;
+	border-color: white;
+	opacity: 0.9;
+}
+
+#divUno {
+	width: 50%;
+	height: 65%;
+	background-color: #45B8FF;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#divgraph {
+	width: 10%;
+	height: 10%;
+	background-color: #45B8FF;
+	margin-top: 5%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+
+#divgraph:hover { /* no es necesario con el window load*/
+	width: 35%;
+	transition: all 2s ease;
+}
+
+#divgraphTwo {
+	width: 10%;
+	height: 10%;
+	background-color: green;
+	margin-top: 1%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+
+#divgraphTwo:hover { /* no es necesario con el window load*/
+	width: 35%;
+	transition: all 2s ease;
+}
+
+#divgraphThree {
+	width: 10%;
+	height: 10%;
+	background-color: white;
+	margin-top: 1%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+
+#divgraphThree:hover {   /* no es necesario con el window load*/
+	width: 60%;
+	transition: all 2s ease;
+}
+
+#divgraphFour {
+	width: 10%;
+	height: 10%;
+	background-color: yellow;
+	margin-top: 1%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+
+#divgraphFour:hover { /* no es necesario con el window load*/
+	width: 35%;
+	transition: all 2s ease;
+}
+
+#divgraphFive {
+	width: 10%;
+	height: 10%;
+	background-color: red;
+	margin-top: 1%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+
+#divgraphSix {
+	width: 10%;
+	height: 10%;
+	background-color: gray;
+	margin-top: 1%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-width: 2px;
+	transition: all 1s ease;
+}
+/*end skills*/
