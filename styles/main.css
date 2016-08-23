@@ -233,20 +233,19 @@ li a:hover {
 
 	/*begin index responsive*/
 	body {
-		background-image: url(.././images/backgroundpicture.png);
-		background-repeat: no-repeat;
+		background-image: url();
+		background-color: #7dcc93;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
 	.headerIndex {
-		margin-top: 40%;
-		width: 97%;
-		background-color: #00BDFF;
+		margin-top: 50%;
+		color: #FF5733;
+		background-color: #7dcc93;
 		font-style: italic;
-	  	border-width:1px;
-	  	border-style:solid;
-	  	border-color:#000000;
+	  	border-width: 0px;
+	  	border-style: solid;
 	  	text-align: center;
 	  	opacity: 0.5;
 	}
