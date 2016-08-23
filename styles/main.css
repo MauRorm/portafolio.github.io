@@ -96,7 +96,7 @@ li a:hover {
 .jobDesc h2, p {
 	margin:0 auto;			/*0 auto generara margin*/
 	text-align: center;
-	width:40%;
+	width: 80%;
 	z-index: 1;
 	color: #000000;
 	font-style: oblique;
@@ -250,7 +250,6 @@ li a:hover {
 	  	opacity: 0.5;
 	}
 
-
 	.ImImageContainer {
 		margin-top: 4%;
 	}
@@ -316,6 +315,40 @@ li a:hover {
 	    color: white;
 	}
 	/*end fixed menu responsive*/
+
+	/*begin experience*/
+	.jobDesc {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0px;
+		height: 50%;
+		width: 100%;
+		opacity: 1;
+	}
+
+	#mimoni {
+		background-color: #31355b;
+	}
+
+	#global {
+		background-color: #f76160;
+	}
+
+	#ctin {
+		background-color: #00BDA3;
+	}
+
+	.jobDesc h2, p {
+		margin:0 auto;			/*0 auto generara margin*/
+		text-align: center;
+		width: 80%;
+		z-index: 1;
+		color: #FFFFFF;
+		font-style: oblique;
+		padding-bottom: 5%;
+	}
+	/*end experience*/
 }
 
 /*end responsive styles*/
